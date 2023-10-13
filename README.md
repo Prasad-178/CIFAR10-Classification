@@ -7,22 +7,27 @@ The first one is a basic CNN involving some convolution blocks, batch norm, drop
 The second model is a CNN with residual connections, which helps in reducing the number of parameters and mitigating the potential problem of vanishing/exploding gradients.
 
 # Basic CNN Model
-Params - 2,397,226
+- Params - 2,397,226
 
-Training set accuracy - 93.8%
+- Training set accuracy - 93.8%
 
-Validation set accuracy - 85.4%
+- Validation set accuracy - 85.4%
 
-Test set accuracy - 86.3%
+- Test set accuracy - 86.3%
 
 # CNN With Residual Blocks
-Params - 66,986
+- Params - 66,986
 
-Training set accuracy - 89.8%
+- Training set accuracy - 89.8%
 
-Validation set accuracy - 77.6%
+- Validation set accuracy - 77.6%
 
-Test set accuracy - 79.1%
+- Test set accuracy - 79.1%
+
+# Links
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+
+- [CIFAR-10 and CIFAR-100 datasets](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 # Conclusion
 
